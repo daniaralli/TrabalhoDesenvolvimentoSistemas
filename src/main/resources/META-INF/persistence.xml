@@ -7,7 +7,7 @@
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <!-- Comentar linha 10 para deseativar destruicao/construcao do banco -->
-      <!-- <property name="hibernate.hbm2ddl.auto" value="create-drop"/>-->
+      <!-- <property name="hibernate.hbm2ddl.auto" value="create-drop"/> -->
       <property name="hibernate.show_sql" value="true"/>
       <property name="hibernate.format_sql" value="true"/>
       <property name="hibernate.transaction.flush_before_completion" value="true"/>

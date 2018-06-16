@@ -50,7 +50,7 @@ public class Projeto implements Serializable{
 	private String tipoEdital;
 	
 	@ManyToOne
-	@JoinColumn(name="COD_TIPO", referencedColumnName="COD_TIPO")
+	@JoinColumn(name="COD_TP", referencedColumnName="COD_TIPO")
 	private TipoProjeto tipoProjeto;
 	
 	@ManyToMany
